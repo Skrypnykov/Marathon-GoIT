@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Montserrat;
+    background-color: #f5f7fa;
+}
+.wrapper {
+    background-color: #fff;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    margin: 40px;
+    display: flex;
+}
+.sidebar {
+    background-color: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.my-photo {
+    max-width: 370px;
+}
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container {
+    margin: 55px 40px 0;
+}
+.contacts-title,
+.tech-skills-title,
+.soft-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    opacity: 0.5;
+    
+}
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.tech-skills-item,
+.soft-skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-type: none;
+}
+.tech-skills-item:before,
+.soft-skills-item:before {
+    color: #ff6b08 ;
+    content: "\2022";
+    font-size: 24px;
+    padding-right: 5px;
+}
+.about-me-container {
+    padding: 110px 90px;
+}
