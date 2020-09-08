@@ -66,6 +66,108 @@ body {
     font-size: 24px;
     padding-right: 5px;
 }
+
 .about-me-container {
     padding: 110px 90px;
+}
+.info-container {
+    margin-bottom: 65px;
+}
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+.description {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-top: 24px;
+    width: 415px;
+}
+
+.projects-container {
+    margin-bottom: 50px;
+}
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.projects-list {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+.projects-item {
+    margin-left: 15px;
+    padding-left: 5px;
+}
+.projects-link, .tech-name {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+.dots {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+}
+.projects-link:hover {
+    text-decoration: underline;
+}
+.profession-container {
+    margin-bottom: 20px;
+}
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    margin: 10px 0 0px;
+}
+.title-highlighting {
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
+.period {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+}
+.profession-list {
+    width: 535px;
+    margin-left: 15px;
+}
+.profession-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+.specialty {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.42px;
 }
