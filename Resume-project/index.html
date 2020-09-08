@@ -3,51 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
     <title>My resume</title>
 </head>
 <body>
     <!-- main container -->
-    <div>
-        <aside>
-            <img src="images/photo.jpg" alt="My photo">
+    <div class="wrapper">
+        <aside class="sidebar">
+            <img class="my-photo" src="img/photo.jpg" alt="My photo">
             
             <!-- contacts container -->
-            <div>
-                <h3>Contacts</h3>
-                <div>C: <a href="tel:380951138598">+38 095 113 85 98</a></div>
-                <div>E: <a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a></div>
+            <div class="contacts-container">
+                <h3 class="contacts-title">Contacts</h3>
+                <div>
+                    <span class="contacts-link-type">C:</span>
+                    <a class="contacts-link" href="tel:380951138598">+38 095 113 85 98</a>
+                </div>
+                <div>
+                    <span class="contacts-link-type">E:</span>
+                    <a class="contacts-link" href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+                </div>
             </div>
 
             <!-- tech skills container -->
-            <div>
-                <h3>Tech Skills</h3>
+            <div class="tech-skills-container">
+                <h3 class="tech-skills-title">Tech Skills</h3>
                 <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
+                    <li class="tech-skills-item">HTML5</li>
+                    <li class="tech-skills-item">CSS3</li>
+                    <li class="tech-skills-item">GIT</li>
+                    <li class="tech-skills-item">WebPack</li>
+                    <li class="tech-skills-item">JavaScript</li>
+                    <li class="tech-skills-item">React.js</li>
+                    <li class="tech-skills-item">Node.js</li>
                 </ul>
 
             </div>
             
             <!-- soft skills container -->
-            <div>
-                <h3>Soft Skills</h3>
+            <div class="soft-skills-container">
+                <h3 class="soft-skills-title">Soft Skills</h3>
                 <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
+                    <li class="soft-skills-item">Scrum</li>
+                    <li class="soft-skills-item">Agile</li>
+                    <li class="soft-skills-item">GTD</li>
+                    <li class="soft-skills-item">Teamwork</li>
                 </ul>
             </div>
             
         </aside>
 
         <!-- about me container -->
-        <div class="about-container">
+        <div class="about-me-container">
             <!-- about me main info -->
             <div>
             <h2>Front-End Developer</h2>
