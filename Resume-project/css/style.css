@@ -12,12 +12,16 @@ body {
 .wrapper {
     background-color: #fff;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-    margin: 40px;
+    max-width: 1200px;
+    margin: 2em auto;
     display: flex;
+    display: -webkit-flex;
 }
 .sidebar {
     background-color: #1e2939;
-    width: 370px;
+    -webkit-flex: initial;
+	flex: initial;
+	width: 30,83%;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #fff;
@@ -68,6 +72,8 @@ body {
 }
 
 .about-me-container {
+    -webkit-flex: 1;
+    flex: 1;
     padding: 110px 90px;
 }
 .info-container {
@@ -77,7 +83,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    margin-bottom: 23px;
+    margin-bottom: 15px;
 }
 .name {
     font-size: 45px;
@@ -91,7 +97,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.42px;
     margin-top: 24px;
-    width: 415px;
+    max-width: 415px;
 }
 
 .projects-container {
@@ -154,7 +160,7 @@ body {
     letter-spacing: 0.36px;
 }
 .profession-list {
-    width: 535px;
+    max-width: 535px;
     margin-left: 15px;
 }
 .profession-item {
@@ -163,6 +169,9 @@ body {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
+}
+.education-container {
+    margin-top: 55px;
 }
 .specialty {
     margin-top: 5px;
